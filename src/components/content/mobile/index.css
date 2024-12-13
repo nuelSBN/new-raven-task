@@ -1,0 +1,82 @@
+.content {
+  height: fit-content;
+  background-color: #20252b;
+  border: 1px solid #262932;
+  padding: 10px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content-tab {
+  width: 100%;
+  background-color: #1c2127;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-tab-links {
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.content-tab-links:hover,
+.content-tab-links.active {
+  background-color: #e9f0ff0d;
+}
+
+.content-tab-links.charts {
+  width: 102px;
+}
+
+.content-tab-links.orderbook {
+  width: 122px;
+}
+
+.content-tab-links.recent-trade {
+  width: 112px;
+}
+
+.main_content-orders {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_content-orders-left {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.main_content-orders-left button {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_content-orders-right {
+  width: 63px;
+  height: 32px;
+  background-color: #353945;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.main_content-orders-right h1 {
+  color: #f4f5f6;
+  font-size: 12px;
+}

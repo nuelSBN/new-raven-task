@@ -1,0 +1,87 @@
+.auth-screen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1c2127;
+}
+
+.auth-screen {
+  padding: 2rem;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #20252b;
+  border-radius: 8px;
+}
+
+.auth-screen__label {
+  color: #a7b1bc;
+}
+
+.auth-screen__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.auth-screen__input {
+  display: block;
+  width: 100%;
+  margin: 0 auto 1rem;
+  padding: 0.5rem;
+  border: 1px solid #373b3f;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: white;
+  background: #20252b;
+}
+
+.auth-screen__button {
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.auth-screen__button:hover {
+  background-color: #0056b3;
+}
+
+.auth-screen__profile-preview {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.auth-screen__profile-preview img {
+  max-width: 100px;
+  border-radius: 50%;
+  border: 2px solid #007bff;
+}
+
+.auth-screen__profile-preview p {
+  margin-top: 0.5rem;
+  color: #555;
+}
+
+.auth-screen__next {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-screen__next:hover {
+  background-color: #1e7e34;
+}

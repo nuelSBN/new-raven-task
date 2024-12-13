@@ -1,0 +1,75 @@
+.crypto__card {
+  height: 126px;
+  background-color: #20252b;
+  border: 1px solid #262932;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.crypto__card-top {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.crypto__card-top-left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.crypto__card-top-left-text {
+  font-size: 18px;
+  color: white;
+  line-height: 32px;
+}
+
+.crypto__card-top-right-text {
+  font-size: 18px;
+  color: #00c076;
+  line-height: 32px;
+}
+
+.crypto__card-bottom {
+  height: 48px;
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  gap: 20px;
+}
+
+.crypto__card-bottom::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .crypto__card {
+    height: 80px;
+    padding: 0 25px;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .crypto__card-top {
+    height: initial;
+  }
+
+  .crypto__card-top-left {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .crypto__card-top-left img:first-of-type {
+    width: 52px;
+    height: 52px;
+  }
+
+  .crypto__card-top-left-text {
+    font-size: 24px;
+  }
+}

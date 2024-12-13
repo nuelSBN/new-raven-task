@@ -1,0 +1,243 @@
+.orders-table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.orders-table {
+  color: #a7b1bc;
+  font-weight: 500;
+  line-height: 16px;
+  font: 12px;
+  width: 100%;
+}
+
+.orders-table-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.orders-table-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.orders-table-body > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orders-table-body > div > p:first-of-type {
+  color: #ff6838;
+  background-color: transparent;
+}
+
+.orders-table-body > div > p {
+  color: white;
+}
+
+.orders-order-price {
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.orders-order-price > p:first-of-type {
+  color: #25c26e;
+}
+
+.orders-action-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desktop__main-content {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.grid__area {
+  height: 560px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 0 16px;
+}
+
+.chart__area {
+  width: 909px;
+  height: 100%;
+  /* background-color: red; */
+  color: white;
+}
+
+.order__area {
+  width: 245px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  gap: 10px;
+  background-color: #20252b;
+}
+
+.order__area-tab {
+  width: 90%;
+  height: 32px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order__area-tab-links {
+  height: 34px;
+  width: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.order__area-tab-links:hover,
+.order__area-tab-links.active {
+  background-color: #e9f0ff0d;
+}
+
+.order__area-orders {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order__area-orders-left {
+  display: flex;
+  gap: 10px;
+}
+
+.order__area-orders-right {
+  width: 63px;
+  height: 100%;
+  background-color: #353945;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.order__area-orders-right h1 {
+  color: #f4f5f6;
+  font-size: 12px;
+}
+
+.order__area-table-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  color: #a7b1bc;
+}
+
+.order__area-table-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 12px;
+}
+
+.order__area-table-body > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.order__area-table-body > div p:first-of-type {
+  color: #ff6838;
+}
+
+.shop__area {
+  width: 255px;
+  height: 100%;
+  background-color: #20252b;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.shop__area-content-top {
+  height: 32px;
+  width: 90%;
+  background-color: #1b1f24;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shop__area-content-top button {
+  width: 48%;
+  height: 28px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  color: white;
+  cursor: pointer;
+}
+
+.shop__area-content-top > button.active {
+  border: 1px solid #25c26e;
+}
+.shop__area-content-top > button.sell_active {
+  border: 1px solid #ff554a;
+}
+
+.shop__area-content-middle {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop__area-content-middle button {
+  padding: 6px 12px;
+  height: 28px;
+  border-radius: 100px;
+  font-size: 12px;
+  color: #a7b1bc;
+}
+
+.shop__area-content-middle button.active {
+  background-color: #353945;
+  color: white;
+}

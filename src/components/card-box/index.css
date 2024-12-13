@@ -1,0 +1,37 @@
+.card__box {
+  min-width: 130px;
+  height: 100%;
+  border-right: 1px solid #eaf0fe39;
+}
+
+.card__box-top {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #a7b1bc;
+}
+
+.card__box-top > span {
+  font-size: 12px;
+  line-height: 20px;
+}
+.card__box-bottom {
+  height: 50%;
+  color: #fff;
+}
+
+.card__box-bottom .up {
+  color: #00c076;
+}
+
+.card__box-bottom > span {
+  font-size: 14px;
+}
+
+@media (min-width: 992px) {
+  .card__box {
+    width: 160px;
+    height: 48px;
+  }
+}
