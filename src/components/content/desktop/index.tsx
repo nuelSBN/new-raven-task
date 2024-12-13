@@ -133,26 +133,6 @@ export default function DesktopContent() {
           </div>
         </div>
         <div className="desktop_content-left-bottom">
-          {/* <div className="desktop_content-left-bottom-tab">
-            <div className="desktop_content-left-bottom-tablinks active">
-              Open Orders
-            </div>
-            <div className="desktop_content-left-bottom-tablinks">Position</div>
-            <div className="desktop_content-left-bottom-tablinks">
-              Order History
-            </div>
-            <div className="desktop_content-left-bottom-tablinks">
-              Trade History
-            </div>
-          </div>
-          <div className="desktop_content-left-bottom-content">
-            <h1>No Open Orders</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur <br />
-              adipiscing elit. Id pulvinar nullam sit imperdiet <br />
-              pulvinar.
-            </p>
-          </div> */}
           <OrderSection />
         </div>
       </div>

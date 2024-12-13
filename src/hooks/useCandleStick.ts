@@ -14,7 +14,7 @@ interface SeriesBarData {
 export const useCandleStick = () => {
   const candlestickData = generateCandlestickData();
 
-  const [state, setState] = useState<{
+  const [state] = useState<{
     series: { data: SeriesData[] }[];
     options: ApexCharts.ApexOptions;
     seriesBar: { name: string; data: SeriesBarData[] }[];
